@@ -1,0 +1,36 @@
+/* 레이아웃 */
+#wrap { text-align:center; text-transform:uppercase;}
+#header1 {  height: 220px; border-top: 1px solid gray; border-bottom: 1px solid gray; }
+#header2 { font-size: 20px; height: 50px; border-bottom: 1px Dashed gray; }
+#contents { height: 750px; }
+#footer { height: 60px; border-top: 1px Dashed gray; }
+
+/* 컨텐츠(내용물) */
+.container {display: inline-block; text-align: center; width: 1100px; margin: 0 auto; height: inherit; background: white;}
+
+/* 메인 이미지 */
+img { height: 220px;}
+
+/*리스트 버튼*/
+  .btn {    text-decoration:none;
+    font-size : 15px;
+    color: white;
+    background-color: #1f75d9;
+    padding: 60px 80px;
+    margin: 0 auto;
+    display:inline-block;
+    border-radius: 20px;
+    transition: all 0.1s;
+    text-shadow: 0px -3px rgba(0, 0, 0, 0.44);
+    border-bottom: solid black 5px;
+    width: 3%;
+    text-align: center;
+    margin-bottom:10px;
+   }
+   .btn:active{
+       transform: translateY(3px);
+       border-bottom: solid black 2px;
+       background-color:#99e6ff;
+   }
+   /* 리스트 스타일 삭제 */
+   .foodlist { list-style:none; margin-top:40px; }
